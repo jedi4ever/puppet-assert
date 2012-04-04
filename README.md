@@ -47,6 +47,8 @@ Rspec-puppet only works on the catalog but does not run on the server, and you n
 ## Why not a function
 because functions run on the server, providers run on the client
 
+## Doesn't use of this module imply bugs in puppet or your manifests that should be fixed?
+
 ## More ideas
 
 have ensure => 'matches' or ensure => 'contains', ensure => 'equals' to do matches with output
